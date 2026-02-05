@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style>a {
+  color: #1155cc;
+  text-decoration: none;
+}
+body {
+  font-family: BIZ UDPMincho;
+}
+li {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+h1 {
+  font-weight: bold;
+}
+ul {
+  list-style-position: inside;
+}
+ul li::marker {
+ color: black;
+}
+.big {
+  list-style: disc;
+}
+.brack {
+  color: black;
+}
+.normal {
+  font-size: 17px;
+  color: black;
+  margin-left: -20px;
+}
+.short {
+  font-size: 17px;
+  margin-left: -25px;
+}
+.red {
+  font-weight: bold;
+  color: red;
+}
+.small {
+  list-style: circle;
+}
+table , td, th {
+	border: 1px solid #595959;
+	border-collapse: collapse;
+}
+table {
+  margin-left: -20px;
+}
+td, th {
+	padding: 3px;
+	height: 25px;
+  vertical-align: top;
+}
+td {
+  padding: 7px 0;
+  padding-left: 5px;
+}
+.td {
+  width: 600px;
+  line-height: 23px;
+}
+.td2 {
+  width: 125px;
+}
+th {
+	background: #f0e6cc;
+}
+.even {
+	background: #fbf8f0;
+}
+.odd {
+	background: #fefcf9;
+}
+.p {
+  font-size: 20px;
+  text-align: right;
+  margin-right: 50px;
+}</style>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <i>東方Project</i>
+      </h1>
+    </header>
+    <main>
+      <br>
+      <ol>
+        <li>作品概要</li>
+        <table>
+          <tbody>
+            <tr>
+              <td class="td2">作品名</td>
+              <td class="td">東方Project</td>
+            </tr>
+            <tr>
+              <td class="td2">制作者</td>
+              <td class="td">
+                <a href="">ZUN & 上海アリス幻樂団</a>
+              </td>
+            </tr>
+            <tr>
+              <td class="td2">作品一覧</td>
+              <td class="td">PC-98版 (旧作) 
+                <br>・東方靈異伝 〜 Highly Responsive to Prayers. 
+                <br>・東方封魔録 〜 the Story of Eastern Wonderland. 
+                <br>・東方夢時空 〜 Phantasmagoria of Dim.Dream. 
+                <br>・東方幻想郷 〜 Lotus Land Story. 
+                <br>・東方怪綺談 〜 Mystic Square. 
+                <br>
+                <br>Windows版 (Win版) 
+                <br>・
+                <a href="">東方紅魔郷 〜 the Embodiment of Scarlet Devil.</a>
+                <br>・東方妖々夢 〜 Perfect Cherry Blossom. 
+                <br>・東方永夜抄 〜 Imperishable Night. 
+                <br>・東方花映塚 〜 Phantasmagoria of Flower View. 
+                <br>・東方風神録 ～ Mountain of Faith. 
+                <br>・東方地霊殿 ～ Subterranean Animism. 
+                <br>・東方星蓮船 ～ Undefined Fantastic Object. 
+                <br>・東方神霊廟 ～ Ten Desires. 
+                <br>・東方輝針城 ～ Double Dealing Character. 
+                <br>・東方紺珠伝 ～ Legacy of Lunatic Kingdom. 
+                <br>・東方天空璋 ～ Hidden Star in Four Seasons. 
+                <br>・東方鬼形獣 ～ Wily Beast and Weakest Creature. 
+                <br>・東方虹龍洞 ～ Unconnected Marketeers. 
+                <br>・東方獣王園 ～ Unfinished Dream of All Living Ghost. 
+                <br>・東方錦上京 〜 Fossilized Wonders. 
+              </td>
+            </tr>
+            <tr>
+              <td class="td2">ジャンル</td>
+              <td class="td">弾幕シューティングゲーム</td>
+            </tr>
+            <tr>
+              <td class="td2">その他</td>
+              <td class="td">
+                <a href="https://x.gd/tpUSI">上海アリス幻樂団 公式HP</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <br>
+        <li>「本家っぽさ」を出すための3つの設定</li>
+        <ul class="big">
+          <li class="short red">ZUNペットの作成</li>
+          <ul class="small">
+            <li class="normal">トランペット(Romantic Tpなど)を選び、
+              <font color="blue">
+                <b>ピッチベンド</b>
+              </font>を強めにかける。
+            </li>
+            <li class="normal">ビブラートを深めにかける。</li>
+          </ul>
+          <li class="short red">EQで「高音」を削る</li>
+          <ul class="small">
+            <li class="normal">DAWのイコライザー(EQ)で、
+              <font color="blue">
+                <b>5kHz〜8kHz以上の高音をカットする</b>
+              </font>。
+            </li>
+          </ul>
+          <li class="short red">リバーブは「深め」に</li>
+          <ul class="small">
+            <li class="normal">無料の「
+              <font color="blue">
+                <b>Valhalla Supermassive</b>
+              </font>」を使い、エコーをかける。
+            </li>
+          </ul>
+        </ul>
+        <br>
+        <br>
+        <li>「Valhalla Supermassive」の使い方</li>
+        <ul class="big">
+          <li class="short">最初はプリセットの「
+            <b>Reverbs</b>」→「
+            <b>Medium」や「Large」</b>の中から選択。
+          </li>
+          <li class="short">「Mix」つまみを30〜50%くらいに上げると、音が奥に引っ込んで幻想的に。</li>
+        </ul>
+        <br>
+        <br>
+        <li>ピッチベンドのコツ(マウス打ち込み)</li>
+        <ul class="big">
+          <li class="short">DAW上の画面下で線を描くように操作し、音の最後で「クイッ」と上げる、又は小刻みにビブラートをかけると、あの「泣きのZUNペット」が鳴り響く。</li>
+        </ul>
+        <br>
+        <br>
+        <li>参考資料</li>
+        <ul class="big">
+          <li class="short">
+            <a href="https://x.gd/beipD">音源 - ZUNの音源を再現するスレ@Wiki - atwiki(アットウィキ)</a>
+          </li>
+        </ul>
+      </ol>
+      <br>
+      <p class="p">
+        <a href="https://github.io/DTM_Music/home.html">TOPに戻る</a>
+      </p>
+    </main>
+  </body>
+</html>
