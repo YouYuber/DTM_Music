@@ -1,152 +1,216 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <style>a { color: #1155cc; text-decoration: none; } body { font-family: BIZ UDPGothic; background: white; } li { font-size: 20px; padding-bottom: 15px; } h1 { font-weight: bold; } ul { list-style-position: inside; } ul li::marker { color: black; } .big { list-style: disc; } .brack { color: black; } .normal { font-size: 17px; color: black; margin-left: -20px; } .short { font-size: 17px; margin-left: -25px; } .red { font-weight: bold; color: red; } .small { list-style: circle; } </style>
-    <link rel=“icon” href=“/img/favicon.ico” type=“image/x-icon”>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
-    <title>DTMで作曲してみよう</title>
-  </head>
-  <body>
-    <header>
-      <h1>
-        <i>DTMで作曲してみよう</i>
-      </h1>
-    </header>
-    <main>
-      <br>
-      <ol>
-        <li>使用機材</li>
-        <ul class="big">
-          <li class="red short">Windows11 Pro 搭載 PC</li>
-          <ul class="small">
-            <li class="normal">Intel Core i5-12400F</li>
-            <li class="normal">MSI GeForce RTX3060 12GB</li>
-            <li class="normal">SSD x3 (500GB x1,1TB x2)</li>
-            <li class="normal">HDD x1 (1TB)</li>
-            <li class="normal">RAM 16GB (8GB x2)</li>
-            <br>
+
+<head>
+	<meta charset="UTF-8">
+	<style>
+		a {
+			color: #1155cc;
+			text-decoration: none;
+		}
+
+		body {
+			font-family: BIZ UDPGothic;
+			background: white;
+		}
+
+		li {
+			font-size: 20px;
+			padding-bottom: 15px;
+		}
+
+		h1 {
+			font-weight: bold;
+		}
+    ol li {
+      font-size: 23px;
+    }
+		ul {
+			list-style-position: inside;
+		}
+
+		ul li::marker {
+			color: black;
+		}
+
+		.big {
+			list-style: disc;
+		}
+
+		.brack {
+			color: black;
+		}
+
+		.normal {
+			font-size: 17px;
+			color: black;
+			margin-left: -20px;
+		}
+
+		.short {
+			font-size: 17px;
+			margin-left: -25px;
+		}
+
+		.red {
+			font-weight: bold;
+			color: red;
+		}
+
+		.small {
+			list-style: circle;
+		}
+	</style>
+	<link rel=“icon” href=“/img/favicon.ico” type=“image/x-icon”> <link rel="preconnect"
+		href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+	<title>DTMで作曲してみよう</title>
+</head>
+
+<body>
+	<header>
+		<h1>
+			<i>DTMで作曲してみよう</i>
+		</h1>
+	</header>
+	<main>
+		<br>
+		<ol>
+			<li>使用機材</li>
+			<ul class="big">
+				<li class="red short">Windows11 Pro 搭載 PC</li>
+				<ul class="small">
+					<li class="normal">Intel Core i5-12400F</li>
+					<li class="normal">MSI GeForce RTX3060 12GB</li>
+					<li class="normal">SSD x3 (500GB x1,1TB x2)</li>
+					<li class="normal">HDD x1 (1TB)</li>
+					<li class="normal">RAM 16GB (8GB x2)</li>
+					<br>
           </ul>
-        </ul>
-        <li>使用ソフト (名前順)</li>
-        <ul class="big">
-          <li class="short">
-            <font color="red">
-              <b>Aviutl</b>
-            </font>, 
-            <font color="red">
-              <b>CapCut</b>
-            </font>等の動画編集ソフト 
-          </li>
-          <ul class="small">
-            <li class="normal">公開用に編集するために使用。</li>
-            <li class="normal">
-              <a href="https://x.gd/v38tL" target="_blank">Aviutl DLページ</a>　
-              <a href="https://x.gd/1LcwM" target="_blank">CapCut DLページ</a>
-            </li>
-            <br>
+				</ul>
+				<li>使用ソフト (名前順)</li>
+				<ul class="big">
+					<li class="short">
+						<font color="red">
+							<b>Aviutl</b>
+						</font>,
+						<font color="red">
+							<b>CapCut</b>
+						</font>等の動画編集ソフト
+					</li>
+					<ul class="small">
+						<li class="normal">公開用に編集するために使用。</li>
+						<li class="normal">
+							<a href="https://x.gd/v38tL" target="_blank">Aviutl DLページ</a>　
+							<a href="https://x.gd/1LcwM" target="_blank">CapCut DLページ</a>
+						</li>
+						<br>
           </ul>
-          <li class="short">
-            <font color="red">
-              <b>Cakewalk Sonar</b>
-            </font>等の無料DAW 
-          </li>
-          <ul class="small">
-            <li class="normal">より高度な音作り(リバーブやエフェクト)をする場合に必要。</li>
-            <li class="normal">ダウンロード時に管理ソフト(BandLab Assistant)もインストール。</li>
-            <li class="normal">VSTの読み込みなども可能。</li>
-            <li class="normal">
-              <a href="https://x.gd/csJab" target="_blank">DLページ</a>
-            </li>
-            <br>
+						<li class="short">
+							<font color="red">
+								<b>Cakewalk Sonar</b>
+							</font>等の無料DAW
+						</li>
+						<ul class="small">
+							<li class="normal">より高度な音作り(リバーブやエフェクト)をする場合に必要。</li>
+							<li class="normal">ダウンロード時に管理ソフト(BandLab Assistant)もインストール。</li>
+							<li class="normal">VSTの読み込みなども可能。</li>
+							<li class="normal">
+								<a href="https://x.gd/csJab" target="_blank">DLページ</a>
+							</li>
+							<br>
           </ul>
-          <li class="short">
-            <font color="red">
-              <b>Dexed</b>
-            </font>(シンセサイザー作成ソフト COOL&CREATE用) 
-          </li>
-          <ul class="small">
-            <li class="normal">無料で使えるシンセサイザーソフト。</li>
-            <li class="normal">Sytrusに似たシンセを作成することが可能。</li>
-            <li class="normal">
-              <a href="https://x.gd/GiiKr" target="_blank">DLページ</a>
-            </li>
-            <br>
+							<li class="short">
+								<font color="red">
+									<b>Dexed</b>
+								</font>(シンセサイザー作成ソフト COOL&CREATE用)
+							</li>
+							<ul class="small">
+								<li class="normal">無料で使えるシンセサイザーソフト。</li>
+								<li class="normal">Sytrusに似たシンセを作成することが可能。</li>
+								<li class="normal">
+									<a href="https://x.gd/GiiKr" target="_blank">DLページ</a>
+								</li>
+								<br>
           </ul>
-          <li class="short">
-            <font color="red">
-              <b>Domino</b>
-            </font>(作曲ソフト) 
-          </li>
-          <ul class="small">
-            <li class="normal">無料で使える定番のMIDIシーケンサー。打ち込みの基本として推奨。</li>
-            <li class="normal">
-              <a href="https://x.gd/j3Bq2" target="_blank">DLページ</a>
-            </li>
-            <br>
+								<li class="short">
+									<font color="red">
+										<b>Domino</b>
+									</font>(作曲ソフト)
+								</li>
+								<ul class="small">
+									<li class="normal">無料で使える定番のMIDIシーケンサー。打ち込みの基本として推奨。</li>
+									<li class="normal">
+										<a href="https://x.gd/j3Bq2" target="_blank">DLページ</a>
+									</li>
+									<br>
           </ul>
-          <li class="short">
-            <font color="red">
-              <b>GeneralUser GS</b>
-            </font>(サウンドフォント <a href="https://youyuber.github.io/DTM_Music/TouhouProject.html">東方原作用</a>) 
-          </li>
-          <ul class="small">
-            <li class="normal">Rolandの音色配列(GS規格)に準拠しており、東方の雰囲気に非常に近い音が揃っている。</li>
-            <li class="normal">
-              <a href="https://x.gd/BfzHy" target="_blank">DLページ</a>
-            </li>
-            <br>
+									<li class="short">
+										<font color="red">
+											<b>GeneralUser GS</b>
+										</font>(サウンドフォント <a
+											href="https://youyuber.github.io/DTM_Music/TouhouProject.html">東方原作用</a>)
+									</li>
+									<ul class="small">
+										<li class="normal">Rolandの音色配列(GS規格)に準拠しており、東方の雰囲気に非常に近い音が揃っている。</li>
+										<li class="normal">
+											<a href="https://x.gd/BfzHy" target="_blank">DLページ</a>
+										</li>
+										<br>
           </ul>
-          <li class="short">
-            <font color="red">
-              <b>Magical 8bit Plug</b>
-            </font>(Cakewalk Sonar用プラグイン COOL&CREATE用) 
-          </li>
-          <ul class="small">
-            <li class="normal">COOL&CREATEの楽曲の象徴である「ピコピコ音」を出すためのソフト。</li>
-            <li class="normal">
-              <a href="https://x.gd/ny58E" target="_blank">DLページ</a>
-            </li>
-            <br>
+										<li class="short">
+											<font color="red">
+												<b>Magical 8bit Plug</b>
+											</font>(Cakewalk Sonar用プラグイン COOL&CREATE用)
+										</li>
+										<ul class="small">
+											<li class="normal">COOL&CREATEの楽曲の象徴である「ピコピコ音」を出すためのソフト。</li>
+											<li class="normal">
+												<a href="https://x.gd/ny58E" target="_blank">DLページ</a>
+											</li>
+											<br>
           </ul>
-          <li class="short">
-            <font color="red">
-              <b>Sforzando</b>
-            </font>(サウンドフォントプレイヤー) 
-          </li>
-          <ul class="small">
-            <li class="normal">サウンドフォントを読み込んで、楽器として鳴らすための無料プラグイン。</li>
-            <li class="normal">GeneralUser GSも読み込むことができる。</li>
-            <li class="normal">
-              <a href="https://x.gd/XBvwX" target="_blank">DLページ</a>
-            </li>
-            <br>
+											<li class="short">
+												<font color="red">
+													<b>Sforzando</b>
+												</font>(サウンドフォントプレイヤー)
+											</li>
+											<ul class="small">
+												<li class="normal">サウンドフォントを読み込んで、楽器として鳴らすための無料プラグイン。</li>
+												<li class="normal">GeneralUser GSも読み込むことができる。</li>
+												<li class="normal">
+													<a href="https://x.gd/XBvwX" target="_blank">DLページ</a>
+												</li>
+												<br>
           </ul>
-          <li class="short">
-            <font color="red">
-              <b>Valhalla Supermassive</b>
-            </font>(拡張機能 <a href="https://youyuber.github.io/DTM_Music/TouhouProject.html">東方原作用</a>) 
-          </li>
-          <ul class="small">
-            <li class="normal">高密度リムーブ、複雑なディレイ、幻想的なエコーにより、東方原作に非常に近い雰囲気を出すことができる。</li>
-            <li class="normal">
-              <a href="https://x.gd/vAo8D" target="_blank">DLページ</a>
-            </li>
-            <br>
+												<li class="short">
+													<font color="red">
+														<b>Valhalla Supermassive</b>
+													</font>(拡張機能 <a
+														href="https://youyuber.github.io/DTM_Music/TouhouProject.html">東方原作用</a>)
+												</li>
+												<ul class="small">
+													<li class="normal">
+														高密度リムーブ、複雑なディレイ、幻想的なエコーにより、東方原作に非常に近い雰囲気を出すことができる。</li>
+													<li class="normal">
+														<a href="https://x.gd/vAo8D" target="_blank">DLページ</a>
+													</li>
+													<br>
           </ul>
-        </ul>
-        <li>他ページ一覧</li>
-        <ul class="big">
-          <li class="short">
-            <a href="https://youyuber.github.io/DTM_Music/TouhouProject.html">東方Project</a>
-          </li>
-          <li class="short">
-            <a href="">COOL&CREATE</a>
-          </li>
-        </ul>
-      </ol>
-    </main>
-  </body>
+												</ul>
+												<li>他ページ一覧</li>
+												<ul class="big">
+													<li class="short">
+														<a
+															href="https://youyuber.github.io/DTM_Music/TouhouProject.html">東方Project</a>
+													</li>
+													<li class="short">
+														<a href="">COOL&CREATE</a>
+													</li>
+												</ul>
+		</ol>
+	</main>
+</body>
+
 </html>
